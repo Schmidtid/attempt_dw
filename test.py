@@ -2,7 +2,7 @@ import hybrid
 import numpy as np
 import dimod as di 
 
-q = np.load('c.npy')
+q = np.load('d-w/Q_21_p9_v5.npz')['c']
 
 import neal
 import dimod
